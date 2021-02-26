@@ -1,0 +1,23 @@
+{
+  "name": "dqy-result",
+  "version": "0.0.1",
+  "description": "dqy system uniform result",
+  "main": "index.js",
+  "keywords": [
+    "dqy result"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/QLLNNH/result.git"
+  },
+  "author": "chaconne",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QLLNNH/result/issues"
+  },
+  "homepage": "https://github.com/QLLNNH/result#readme"
+}
