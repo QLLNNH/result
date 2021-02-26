@@ -1,15 +1,12 @@
 {
   "name": "dqy-result",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "dqy system uniform result",
   "main": "index.js",
   "keywords": [
     "dqy result"
   ],
-  "dependencies": {
-  },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/QLLNNH/result.git"
