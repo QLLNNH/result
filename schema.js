@@ -12,36 +12,36 @@ module.exports = {
     },
 
     // 服务类
-    201: (s = '') => {
+    201: ({ service = '' }) => {
         return {
             code: 201,
             grade: 'FATAL',
-            message: `service ${ s } not found`,
-            result: { code: 201, message: `service ${ s } not found`, data: null }
+            message: `service ${ service } not found`,
+            result: { code: 201, message: `service ${ service } not found`, data: null }
         };
     },
-    202: (m = '') => {
+    202: ({ method = '' }) => {
         return {
             code: 202,
             grade: 'FATAL',
-            message: `method ${ m } not found`,
-            result: { code: 202, message: `method ${ m } not found`, data: null }
+            message: `method ${ method } not found`,
+            result: { code: 202, message: `method ${ method } not found`, data: null }
         };
     },
-    203: (p = '') => {
+    203: ({ path = '' }) => {
         return {
             code: 203,
             grade: 'FATAL',
-            message: `path ${ p } not found`,
-            result: { code: 203, message: `path ${ p } not found`, data: null }
+            message: `path ${ path } not found`,
+            result: { code: 203, message: `path ${ path } not found`, data: null }
         };
     },
-    204: (r) => {
+    204: ({ router = '' }) => {
         return {
             code: 204,
             grade: 'FATAL',
-            message: `router ${ r } not found`,
-            result: { code: 204, message: `router ${ r } not found`, data: null }
+            message: `router ${ router } not found`,
+            result: { code: 204, message: `router ${ router } not found`, data: null }
         };
     },
 

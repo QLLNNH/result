@@ -1,6 +1,6 @@
 'use strict';
 const Result = require('./index');
 
-const r = Result.of(534, { message: 'wancheng' });
+const r = Result.of(201, { service: 'abc' });
 
 console.log(r);
